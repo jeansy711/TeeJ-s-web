@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(to right, #e12f7f, #e882b5);
+    font-family: Arial, sans-serif;
+    background-color: #d389c3;
+    color: #585555;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+}
+h1 {
+    color: #585b5d;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: color 0.4s ease-in-out;
+}
+
+h1: hover{
+    color: #d389c3
+    transform: scale(1.1);
+}
